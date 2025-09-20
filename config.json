@@ -1,0 +1,78 @@
+{
+  "shorteners": [
+    "bit.ly",
+    "t.co",
+    "goo.gl",
+    "tinyurl.com",
+    "is.gd",
+    "ow.ly",
+    "buff.ly",
+    "cutt.ly",
+    "rb.gy",
+    "clck.ru",
+    "vk.cc",
+    "ok.me"
+  ],
+
+  "risky_exts": [
+    ".exe", ".scr", ".js", ".vbs", ".jar", ".bat", ".cmd", ".com", ".pif",
+    ".docm", ".xlsm", ".zip", ".rar", ".7z", ".htm", ".html", ".apk"
+  ],
+
+  "brand_domains": {
+    "sberbank": ["sberbank.ru", "online.sberbank.ru"],
+    "vtb": ["vtb.ru", "online.vtb.ru"],
+    "gazprombank": ["gazprombank.ru"],
+    "alfabank": ["alfabank.ru"],
+    "tinkoff": ["tinkoff.ru"],
+    "pochta": ["pochta.ru", "russianpost.ru"],
+    "gosuslugi": ["gosuslugi.ru"],
+    "yandex": ["yandex.ru", "ya.ru"],
+    "mailru": ["mail.ru", "bk.ru", "inbox.ru", "list.ru"],
+    "vk": ["vk.com", "vk.ru"],
+    "ok": ["ok.ru"],
+
+    "apple": ["apple.com", "icloud.com"],
+    "icloud": ["apple.com", "icloud.com"],
+    "paypal": ["paypal.com"],
+    "google": ["google.com", "accounts.google.com", "gmail.com"],
+    "microsoft": ["microsoft.com", "live.com", "outlook.com"],
+    "facebook": ["facebook.com"],
+    "netflix": ["netflix.com"],
+    "spotify": ["spotify.com"],
+    "amazon": ["amazon.com"],
+    "steam": ["steampowered.com", "steamcommunity.com"],
+    "adobe": ["adobe.com"],
+    "qiwi": ["qiwi.com", "qiwi.ru"],
+    "yoomoney": ["yoomoney.ru", "money.yandex.ru"]
+  },
+  "keywords_dangerous": {
+    "block": ["заблокировать", "блокировка"],
+    "limit": ["ограничить", "ограничение", "заморозить", "приостановить"],
+
+    "confirm": ["подтвердить", "подтверждение"],
+    "verify": ["верифицировать", "верификация", "авторизовать", "авторизация",
+      "идентификация", "идентифицировать"],
+    "login": ["войти", "логин", "пароль", "учётный", "запись"],
+
+    "urgent": ["срочный", "срочно", "немедленно", "сегодня", "срочность"],
+    "suspicious": ["подозрительный", "подозрение", "необычный", "сомнительный"],
+
+    "payment": ["оплатить", "оплата", "платёж", "платеж", "счёт", "счет", "транзакция", "перевод"],
+    "bank": ["банк", "карта", "кредит", "visa", "mastercard", "cvv"],
+    "personal": ["паспорт", "данные", "информация"],
+
+    "update": ["обновить", "обновление"],
+    "link": ["ссылка", "перейти", "кликнуть", "активировать"],
+    "access": ["доступ", "восстановить", "активировать"],
+
+    "account": ["аккаунт", "профиль"],
+    "service": ["поддержка", "служба", "сервис"],
+    "reward": ["подарок", "приз", "выиграть", "выигрыш", "бонус", "вознаграждение"],
+    "security": ["безопасность", "безопасный", "угроза", "угрозы", "атака", "взлом"],
+    "auth": ["авторизация", "авторизоваться", "авторизуйтесь"],
+    "help": ["помощь", "помогите", "помогите!"],
+    "unlock": ["разблокировать", "разблокировка"],
+    "secure": ["защитить", "защита", "безопасный", "безопасность"]
+  }
+}
