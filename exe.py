@@ -1,6 +1,7 @@
 import argparse
 import sys
 from detector import PhishingDetector
+from preprocessing import file_checksum, crc32_folder_in_zip
 
 def main():
     parser = argparse.ArgumentParser(description="Phishing Detector")
@@ -46,7 +47,13 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
-    main()
+    # main()
+    Hash1 = crc32_folder_in_zip('test1.zip', 'test1')
+    Hash2 = crc32_folder_in_zip('test2.zip', 'test2')
+    print(Hash1)
+    print(Hash2)
+
+
 
 
 
